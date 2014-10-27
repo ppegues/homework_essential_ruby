@@ -35,5 +35,9 @@ principal_amount = 200000.0
 # You shouldn't have to write code or change code anywhere else.
 
 # loan_quotes.each ...
+loan_quotes.each do |loan_qoute|
+puts "The monthly payment from #{loan_qoute["bank"]} will be ${pmt(rate, nper,#{loan_qoute["annual_rate"]})}."
+end
+
 
 # ==============================================================
