@@ -77,8 +77,7 @@ end
 
 def standard_deviation(list_of_numbers)
   # ====================
-  # Your code goes here.
-  # ====================
+standard_deviation = Math.sqrt(variance(list_of_numbers))  # ====================
 end
 
 
